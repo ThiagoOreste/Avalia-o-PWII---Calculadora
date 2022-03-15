@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PWII - Calculadora</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    <body>
+
+        <section class="content">
+            
+            <section class="nav">
+                <h1>Avaliação PWII</h1>
+            </section>
+            
+            <section class="conteudo">
+                <section class="conteudo article-1">
+                    <form action="#" class="calculadora">
+                        <input type="text" id="numero1" placeholder="Insira o primeiro número">
+                        <br><br>
+                        <input type="text" id="numero2" placeholder="Insira o segundo número">
+                        <br><br>
+                        <button onclick="soma()">+</button>
+                        <button onclick="sub()">-</button>
+                        <button onclick="mult()">x</button>
+                        <button onclick="divi()">/</button>
+                        <br><br>
+                        Resultado: <span id="result"></span>
+                    </form>
+                </section>
+
+                <section class="conteudo article-2">
+                        <h2 id="titulo">Calculadora</h2>
+                        <p id="parag">Quando completar uma das das operações ao lado, esta área será substituída por informações sobre a operação escolhida</p>
+                        <img id="img" src="img/seta.png">
+                </section>                        
+                
+            </section>
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>

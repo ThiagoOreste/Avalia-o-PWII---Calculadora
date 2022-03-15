@@ -1,0 +1,61 @@
+body,
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav{
+    display: flex;
+    height: 30%;
+    background-color: #038C7F;
+    align-items: center;
+    padding-left: 1%;
+}
+
+.conteudo{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.article-1{
+    width: 30%;
+    height: 100%;
+    background-color: #F2E7DC;
+
+}
+
+.article-2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    background-color: #A9D9D0;
+    padding-left: 1%;
+}
+
+.article-2 h2{
+    font-size: 40px;
+}
+
+.article-2 p{
+    font-size: 18px;
+}
+
+.article-2 img{
+    padding-top: 5%;
+    width: 10%;
+}
+
+.calculadora{
+    padding-left: 5%;
+    padding-top: 10%;
+}
